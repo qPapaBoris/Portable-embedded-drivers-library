@@ -3,6 +3,14 @@
 All important changes to this project are documented here.
 
 ---
+## [0.1.1] – First working GPIO driver and build system fix
+
+### Added
+- First functional low level GPIO driver implementation
+- ATmega328P platform layer with direct register access
+- Simple LED test application on PB5
+- PlatformIO configuration for layered project build
+- Proper include paths for all project layers
 
 ## [0.1.0] – Architecture baseline
 
@@ -20,3 +28,4 @@ All important changes to this project are documented here.
 
 This version establishes the architectural foundation of the PEDL project.
 Functional driver implementations will be added in future versions.
+
